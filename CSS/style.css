@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    padding: 15px;
+    background-color: rgb(236, 236, 163);
+}
+
+.text {
+    text-align: center;
+
+
+}
+
+.box {
+    position: absolute;
+    left: 200px;
+    border: 20px groove yellowgreen;
+
+}
+
+.logo {
+    border: 20px groove;
+    border-color: red blue;
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.head {
+    text-align: center;
+    color: chocolate;
+}
+
+.characters {
+
+    background-color: lightgreen;
+}
+
+.charactersTheme {
+    color: rgb(248, 246, 245);
+    background-color: green;
+}
+
+.picture {
+    display: none;
+}
+
+.theme {
+    color: aqua;
+    background-color: black;
+}
+.button{
+    background-color: rgb(213 140 140);
+    color: rgb(25, 25, 71);
+    border: 2px solid rgb(70, 48, 40);
+}
