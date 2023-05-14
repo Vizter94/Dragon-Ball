@@ -1,0 +1,6 @@
+.navigation__paragraph{
+    margin:10px;
+}
+.navigation__list{
+    list-style-image: url(../Images/Ball.png);
+}

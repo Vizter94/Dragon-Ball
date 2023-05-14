@@ -1,0 +1,34 @@
+.site{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas: 
+    "hd hd"
+    "nv mn"
+    "sc sc"
+    "ft ft"
+    ;
+    
+    
+}
+.site__header{
+    grid-area: hd;
+    border-bottom: 5px solid black;
+    padding: 25px;
+}
+.site__navigation{
+    grid-area: nv;
+    border-right: 5px solid black;
+    background-color: rgba(0, 255, 255, 0.486);
+}
+.site__main{
+    grid-area: mn;
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+}
+.site__section{
+    grid-area: sc;
+    border-top: 5px solid black;
+}
+.site__foot{
+    grid-area: ft;
+}

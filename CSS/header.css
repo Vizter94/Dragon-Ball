@@ -1,0 +1,18 @@
+.header__head{
+    text-align: center;   
+    margin: 40px; 
+}
+.header__container{
+    display: flex;
+    background-image: url(../Images/goku1.jpg) ,url(../Images/goku.jpg);
+    background-position: left,right;
+    background-repeat: no-repeat;
+}
+.header__image{
+    max-width: 400px;
+    border:15px groove;
+    border-color: blue red red blue;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 25px 20px;
+}
